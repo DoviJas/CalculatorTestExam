@@ -1,0 +1,16 @@
+<suite name="PirmasSuite">
+	<test name="calculatorTest">
+		<classes>
+			<class name="Tests.tests">
+				<methods>
+					<include name="testRegPositive"/>
+					<include name="testLoginPage"/>
+					<include name="testLoginPageNeg"/>
+					<include name="testLogOut"/>
+					<include name="testRegNeg"/>
+					
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

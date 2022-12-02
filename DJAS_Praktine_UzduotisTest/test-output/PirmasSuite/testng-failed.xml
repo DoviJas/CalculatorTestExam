@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PirmasSuite]">
+  <test thread-count="5" name="calculatorTest(failed)">
+    <classes>
+      <class name="Tests.tests">
+        <methods>
+          <include name="testLogOut"/>
+          <include name="Setup"/>
+          <include name="testLoginPageNeg"/>
+          <include name="testLoginPage"/>
+          <include name="TearDown"/>
+          <include name="testRegNeg"/>
+          <include name="testRegPositive"/>
+        </methods>
+      </class> <!-- Tests.tests -->
+    </classes>
+  </test> <!-- calculatorTest(failed) -->
+</suite> <!-- Failed suite [PirmasSuite] -->

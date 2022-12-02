@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-02T12:36:17 EET" name="PirmasSuite" finished-at="2022-12-02T12:37:36 EET" duration-ms="79031">
+    <groups>
+    </groups>
+    <test started-at="2022-12-02T12:36:17 EET" name="calculatorTest" finished-at="2022-12-02T12:37:36 EET" duration-ms="79031">
+      <class name="Tests.tests">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Tests.tests@130d63be]" started-at="2022-12-02T12:36:17 EET" name="Setup" finished-at="2022-12-02T12:36:20 EET" duration-ms="3370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testRegPositive()[pri:1, instance:Tests.tests@130d63be]" started-at="2022-12-02T12:36:20 EET" name="testRegPositive" finished-at="2022-12-02T12:36:45 EET" duration-ms="25213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegPositive -->
+        <test-method signature="testLoginPage()[pri:2, instance:Tests.tests@130d63be]" started-at="2022-12-02T12:36:45 EET" name="testLoginPage" finished-at="2022-12-02T12:36:58 EET" duration-ms="12834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method signature="testLoginPageNeg()[pri:3, instance:Tests.tests@130d63be]" started-at="2022-12-02T12:36:58 EET" name="testLoginPageNeg" finished-at="2022-12-02T12:37:07 EET" duration-ms="8495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageNeg -->
+        <test-method signature="testLogOut()[pri:4, instance:Tests.tests@130d63be]" started-at="2022-12-02T12:37:07 EET" name="testLogOut" finished-at="2022-12-02T12:37:19 EET" duration-ms="12676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogOut -->
+        <test-method signature="testRegNeg()[pri:5, instance:Tests.tests@130d63be]" started-at="2022-12-02T12:37:19 EET" name="testRegNeg" finished-at="2022-12-02T12:37:36 EET" duration-ms="16357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegNeg -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Tests.tests@130d63be]" started-at="2022-12-02T12:37:36 EET" name="TearDown" finished-at="2022-12-02T12:37:36 EET" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Tests.tests -->
+    </test> <!-- calculatorTest -->
+  </suite> <!-- PirmasSuite -->
+</testng-results>
